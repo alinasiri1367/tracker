@@ -17,18 +17,18 @@ STEP 2 : Add `provider` and `facade` in config/app.php
 
     'providers' => [
       ...
-      \alinasiri\tracker\TrackerServiceProvider::class, // <-- add this line at the end of provider array
+     \Tracker\TrackerServiceProvider::class, // <-- add this line at the end of provider array
     ],
 
 
     'aliases' => [
       ...
-      'Tracker'=>\alinasiri\tracker\Facade\TrackerFacade::class, // <-- add this line at the end of aliases array
+      'Tracker'=>\Tracker\facade\TrackerFacade::class, // <-- add this line at the end of aliases array
     ]
 
 Step 3:  
 
     php artisan migrate
 
-
-    :).
+----------------------------------------
+:)
