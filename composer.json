@@ -1,0 +1,17 @@
+{
+    "name": "alinasiri/tracker",
+    "description": "This is first my package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alinasiri",
+            "email": "alinasiri1367@gmail.com"
+        }
+    ],
+  "autoload": {
+    "psr-4": {
+      "Tracker\\": "src/"
+    }
+  },
+    "require": {}
+}
