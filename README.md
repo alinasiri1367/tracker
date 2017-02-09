@@ -11,7 +11,7 @@ Run below statements on your terminal :
 
 STEP 1 : 
 
-    composer require "alinasiri/tracker":"1.0.1"
+    composer require "alinasiri/tracker":"1.1.0"
     
 STEP 2 : Add `provider` and `facade` in config/app.php
 
