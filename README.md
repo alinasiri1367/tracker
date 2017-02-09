@@ -46,8 +46,13 @@ Step 3:
 
 ```
 onlineVisitors(60) // show online visitors in 60 seconds ago
+
 visits('all') //Total Views- Other parameters : today,yesterday,default=all
+
 visitors('all') //Number of visitors- Other parameters : today,yesterday,default=all
+
 subDayVisits($day) //The number of hits in $day days -integer
+
 subDayVisitors($day)
+
 ```
